@@ -68,17 +68,10 @@ p {
   display: grid;
   grid-template-columns: 0.3fr 0.3fr 0.4fr;
   grid-column-gap: 15px;
-  /* grid-template-areas:
-  "header header header"
-  "main main sidebar"
-  "footer footer footer" */
   grid-row-gap: 15px;
 }
 
-/* TODO: add separation line (border-bottom) */
-
 header {
-  /* grid-area:header; */
   display:flex;
   padding: 10px;
   flex-direction: row;
@@ -97,7 +90,6 @@ header {
 }
 
 .sidebar {
-  /* grid-area:sidebar; */
   display: flex;
   padding: 10px;
   flex-direction: row;
@@ -114,7 +106,6 @@ header {
 }
 
 .hero {
-  /* grid-area:sidebar; */
   display:flex;
   padding: 10px;
   flex-direction: column;
@@ -128,7 +119,6 @@ header {
 }
 
 .main {
-  /* grid-area:main; */
   padding: 10px;
   display:flex;
   flex-direction: column;
@@ -154,7 +144,6 @@ figcaption {
 }
 
 footer {
-  /* grid-area:main; */
   padding: 10px;
   display:flex;
   flex-direction: column;

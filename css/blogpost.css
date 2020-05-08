@@ -1,5 +1,4 @@
 .main-blogpost {
-  /* grid-area:main; */
   display:flex;
   padding: 10px;
   flex-direction: column;
@@ -12,7 +11,6 @@
 }
 
 .card {
-  /* grid-area:main; */
   display:flex;
   padding: 10px;
   flex-direction: column;
@@ -34,10 +32,6 @@
   display: grid;
   grid-template-columns: 0.3fr 0.3fr 0.4fr;
   grid-column-gap: 15px;
-  /* grid-template-areas:
-  "header header header"
-  "main main sidebar"
-  "footer footer footer" */
   grid-row-gap: 15px;
 }
 
@@ -57,7 +51,6 @@
 }
 
 .social {
-  /* grid-area:sidebar; */
   display:flex;
   padding: 10px;
   flex-direction: row;
