@@ -105,7 +105,7 @@ header {
   margin: 5px;
 }
 
-.hero {
+/* .hero {
   display:flex;
   padding: 10px;
   flex-direction: column;
@@ -116,7 +116,7 @@ header {
   grid-row-start: 2;
   grid-row-end: 3;
   margin: 5px;
-}
+} */
 
 .main {
   padding: 10px;
