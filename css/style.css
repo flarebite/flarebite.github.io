@@ -209,7 +209,7 @@ footer {
 
 header a {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
   line-height: 20px;
   color: #304c89ff;
   text-decoration: none;
@@ -220,7 +220,7 @@ button {
  background-color: #304c89ff;
  border-radius: 10px;
  font-family: 'Raleway', Helvetica, Arial, sans-serif;
- font-size: 20px;
+ font-size: 15px;
  font-weight: bold;
  line-height: 20px;
  color: white;
